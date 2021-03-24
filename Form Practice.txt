@@ -1,0 +1,3 @@
+Database: mydb1
+username: mydb1_user_1
+password: 123
