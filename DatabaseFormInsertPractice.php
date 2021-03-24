@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Database Insert</title>
+	<title>Database insert</title>
 </head>
 <body>
 	<h1>Database Insert</h1>
