@@ -25,7 +25,10 @@
 	else
 	{
 		echo "1.Database Connection Successful!...";
-	}*/
+	}
+	$conn1->close();
+
+	*/
 
 	//mysqli Procedural
 	$conn2 = mysqli_connect($host, $username, $password);
@@ -35,7 +38,9 @@
 		echo mysqli_connect_error();
 	}
 	else{
-		echo "2.Database Connection Successful!...";	}
+		echo "2.Database Connection Successful!...";
+	}
+	mysqli_close($conn2);
 
 	?>
 
